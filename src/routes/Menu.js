@@ -1,11 +1,10 @@
 import React from 'react';
-import Header from '../components/Header';
+import MenuPage from '../components/MenuPage/MenuPage';
 
 const Menu = () => {
   return (
     <div>
-      <Header />
-      <h1 style={{textAlign: "center", paddingTop: "15%"}}>Menu</h1>
+      <MenuPage />
     </div>
   )
 }

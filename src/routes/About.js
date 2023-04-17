@@ -1,11 +1,10 @@
 import React from 'react';
-import Header from '../components/Header'
+import AboutPage from '../components/AboutPage/AboutPage';
 
 const About = () => {
   return (
     <div>
-      <Header />
-      <h1 style={{textAlign: "center", paddingTop: "15%"}}>About</h1>
+      <AboutPage />
     </div>
   )
 }
